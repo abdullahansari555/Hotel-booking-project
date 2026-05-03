@@ -45,12 +45,12 @@ st.markdown("### 📊 Enter Booking Details")
 col1, col2 = st.columns(2)
 
 with col1:
-    lead_time = st.number_input("⏳ Lead Time", min_value=0, max_value=500, value=50)
-    adults = st.number_input("👨 Adults", min_value=1, max_value=10, value=2)
+    lead_time = st.number_input(" Lead Time", min_value=0, max_value=500, value=50)
+    adults = st.number_input(" Adults", min_value=1, max_value=10, value=2)
 
 with col2:
-    adr = st.number_input("💰 Average Daily Rate (ADR)", min_value=0.0, value=100.0)
-    prev_cancel = st.number_input("❌ Previous Cancellations", min_value=0, max_value=10, value=0)
+    adr = st.number_input(" Average Daily Rate (ADR)", min_value=0.0, value=100.0)
+    prev_cancel = st.number_input(" Previous Cancellations", min_value=0, max_value=10, value=0)
 
 st.write("")
 
